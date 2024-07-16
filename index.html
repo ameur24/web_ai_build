@@ -33,17 +33,6 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <script>
-  {{flutter_js}}
-      {{flutter_build_config}}
-
-      _flutter.loader.load({
-        config: {
-          hostElement: document.getElementById('flutter_host'),
-        }
-      });
-
-
-  </script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
